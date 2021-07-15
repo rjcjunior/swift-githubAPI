@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  githubApi
-//
-//  Created by Ricardo.Junior on 12/06/21.
-//
 
 import UIKit
 

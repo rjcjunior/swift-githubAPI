@@ -1,10 +1,3 @@
-//
-//  RepoTableViewCell.swift
-//  githubApi
-//
-//  Created by Ricardo.Junior on 13/06/21.
-//
-
 import UIKit
 
 class RepoTableViewCell: UITableViewCell {

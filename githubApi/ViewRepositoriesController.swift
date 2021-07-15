@@ -1,10 +1,3 @@
-//
-//  ViewRepositoriesController.swift
-//  githubApi
-//
-//  Created by Ricardo.Junior on 12/06/21.
-//
-
 import UIKit
 
 class ViewRepositoriesController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -32,8 +25,6 @@ class ViewRepositoriesController: UIViewController, UITableViewDelegate, UITable
         getRepositories(user: user){ repositoriesReponse in
             self.repositories = repositoriesReponse
             DispatchQueue.main.async {
-//                print(repositoriesReponse.count)
-//                print(self.repositories.count)
 
                 if(repositoriesReponse.count <= 0){
                     self.labelStatus.text = self.statusNotFound
